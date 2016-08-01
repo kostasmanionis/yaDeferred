@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- '6'
+- '5'
+- '4'
+deploy:
+  provider: npm
+  email: kostas.manionis@gmail.com
+  api_key:
+    secure: jU/E/PwLYVhYpu0gIPe5C/URttcaJ7JQPcZcMoX/SR1lpHrbIIS63B3rMfyk5Jhh7SGsA3qv49m1wya7mbAcG5NEw+QUc9p5k2imWe3Fl3gMC8bOYcyN0lm74wzrB0SIM3rPnx+xDtiD9nFwL+tLkX+VjoZy9tXJU/asBqsWoZnsmSgpS2cb68ofGV1svRn7LT+xt0l4zSJzm3NH7rUgyawM0sbl6p9TKysVbtiu1ZMacY/30/b6qzgYfrOGa5oizcZNOvOIO8U7Bi7Ca+V4c150eC+4+F/qbuDuhKROh1ii4tDiMr7PAYlPol3HLp7z3bfM5zBtYZ+5as7/g+ZBUuA5NhYRgBEOgRlEQbz4n7lQhAphCMxHcD+2Mdki3eQRwB7w4Zs5UcFCby2wWQoEYiGqvRUiU4zmrCDCqkfwBpx7vr0V0w+DGgT9yqKJcw7rzwtnnkFVb+1BVWEBm21A76++PGlwNm0S2mS8Wz7mxRg3xcNQmWBnZMqoRryxP9QgyI2g0VpgYUNDIscY2GXP/fc8KluPI13Gh7HBeaIEgEhhanJZnnMELx8eEDetz9MdfzyuTc9MPe8RLNc96hZXxX+ZWP0aBaw4XVTKt7eANLrstYdoYdaL4651kG+PtZqbk9kZyRDmf4u6/AjE0RVs67KB/DvA6I6tQhvi75eLKWs=
+  on:
+    tags: true
+    repo: kostasmanionis/yaDeferred
