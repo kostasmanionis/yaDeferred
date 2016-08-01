@@ -1,6 +1,8 @@
 # Yet another deferred implementation
 
-You can never have enought of these, right?
+[![Build Status](https://travis-ci.org/kostasmanionis/yaDeferred.svg?branch=master)](https://travis-ci.org/kostasmanionis/yaDeferred)
+
+You can never have enough of these, right?
 
 Small, zero dependency deferred utility based on ES2015 promises.
 
@@ -8,7 +10,7 @@ Small, zero dependency deferred utility based on ES2015 promises.
 
 [es6-promise](https://github.com/stefanpenner/es6-promise)
 
-## Instalation
+## Installation
 
 `npm install --save yaDeferred`
 
