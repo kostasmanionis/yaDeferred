@@ -37,7 +37,7 @@ resolves the promise with a given value and returns the promise
 
 rejects the promise with a given value and returns the promise
 
-### resolve
+### then
 
 `yaDeferred.then()`
 
@@ -47,4 +47,4 @@ rejects the promise with a given value and returns the promise
 
 `yaDeferred.catch()`
 
-`then` is a direct call to the original promise catch method
+`catch` is a direct call to the original promise catch method
