@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "Small, zero dependency deferred utility based on ES2015 promises",
   "main": "index.js",
+  "keywords": [
+    "deferred",
+    "es6",
+    "promise",
+    "utility"  
+  ],
   "scripts": {
     "test": "mocha tests.js"
   },
