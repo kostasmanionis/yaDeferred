@@ -1,13 +1,13 @@
 {
   "name": "yaDeferred",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Small, zero dependency deferred utility based on ES2015 promises",
   "main": "index.js",
   "keywords": [
     "deferred",
     "es6",
     "promise",
-    "utility"  
+    "utility"
   ],
   "scripts": {
     "test": "mocha tests.js"
